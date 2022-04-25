@@ -6,7 +6,7 @@ Challenge: The objective of this project is to create a machine learning model t
 To start solving this question, we first needed to normalize our input and output data points to reduce floating point error and to clean up major discrepancies between the norms of each input params.
 ### Determine Strong correlation Inputs
 Next, we visualized the correlation of the input variables with the output variables at a single timestamp, then over the course of the time range given.
-![1 Timestamp Correlation](NCSA-CAII-Ashby-Prize-Hackathon-Team-6/abs_correlation_t0_v2.png)
+![1 Timestamp Correlation](abs_correlation_t0_v2.png)
 
 
 
