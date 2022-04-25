@@ -27,18 +27,17 @@ Next, we visualized the correlation of the input variables with the output varia
 ![Correlation Over Time](t_loop_all_z.gif)
 
 
-<!-- ## Develop Models
-### MLP - Multilayer Perceptrons
+## Develop Models
+<!-- ### MLP - Multilayer Perceptrons -->
 
 
 ### TabNet
+![MLE / MSE](mle.png)
 
-### Gradient Boosting Tree
+<!-- ### Gradient Boosting Tree -->
 
-### Linear Regression
-
-
-## Get Predictions -->
+## Get Predictions
+![MLE / MSE](mle.png)
 
 # Team:
 Sunny Tang, Kedar Phadke, Chu-Chun Chen, Labdhi Jain
