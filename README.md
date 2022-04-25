@@ -10,13 +10,13 @@ To start solving this question, we first needed to normalize our input and outpu
     2. When calculating mean and standard deviation, we use the log(value) to ensure floating point precision 
     3. We do global mean and std for [‘ALT’, ‘Z’, ‘P+PB’]
     4. Others, we calculate mean and std per vertical level.
-    $$\bar{X} = \frac{\sum_{i=1}^{n} x_{i}}{n}$$
-    $$ s = \sqrt{\frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}}$$
+    ```math\bar{X} = \frac{\sum_{i=1}^{n} x_{i}}{n}```
+     ```math s = \sqrt{\frac{\sum (x_{i} - \bar{x})^{2}}{N - 1}}``
     
 - Part 2: Normalizing for Each Timestep
     - We use the mean and std calculated form part 1 to normalize the input and output values in the dataset.
     - This ensures a normal distribution of the dataset and a more accurate prediction from the model later on. 
-    $$ z = \frac{x - \mu}{\sigma}$$
+     ```math z = \frac{x - \mu}{\sigma}``
     
 ### Determine Strong correlation Inputs
 Next, we visualized the correlation of the input variables with the output variables at a single timestamp, then over the course of the time range given.
@@ -28,13 +28,15 @@ Next, we visualized the correlation of the input variables with the output varia
 
 
 ## Develop Models
-<!-- ### MLP - Multilayer Perceptrons -->
+### MLP - Multilayer Perceptrons
 
 
 ### TabNet
-![MLE / MSE](mle.png)
+![Tabnet1](tabnet.png)
+![Tabnet2](tabnet2.png)
+![Tabnet3](tabnet3.png)
 
-<!-- ### Gradient Boosting Tree -->
+### Gradient Boosting Tree
 
 ## Get Predictions
 ![MLE / MSE](mle.png)
