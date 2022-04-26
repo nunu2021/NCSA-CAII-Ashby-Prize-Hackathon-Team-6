@@ -1,5 +1,6 @@
 # NCSA-CAII-Ashby-Prize-Hackathon-Team-6
 Challenge: The objective of this project is to create a machine learning model trained on accurate WRF-PartMC data that predicts climate-relevant aerosol properties from only the features that current GCMs can output.
+[Problem Statement](https://ai.ncsa.illinois.edu/wp-content/uploads/2022/04/instructions_04052022-min-1.pdf)
 
 ## Analyze Data
 ### Normalize Data
@@ -39,6 +40,8 @@ Next, we visualized the correlation of the input variables with the output varia
 
 ## Get Predictions
 ![MLE / MSE](mle.png)
+
+Read Our Full presentation [HERE](https://docs.google.com/presentation/d/14Tt9RcEZN6glRenaNbsKrEFVbnRaBpxLx9ZVkvc7fX0/edit?usp=sharing)
 
 # Team:
 Sunny Tang, Kedar Phadke, Chu-Chun Chen, Labdhi Jain
