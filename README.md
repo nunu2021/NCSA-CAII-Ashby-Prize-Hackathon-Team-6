@@ -43,7 +43,8 @@ Next, we visualized the correlation of the input variables with the output varia
 
 ## Get Predictions
 ![MLE / MSE](mle.png)
-(z2cnn001.gif)
+![z2cnn001](https://user-images.githubusercontent.com/40395196/165340497-c3fac5a2-f697-46f3-a459-98e4b3d4f085.gif)
+
 
 Read Our Full presentation [HERE](https://docs.google.com/presentation/d/14Tt9RcEZN6glRenaNbsKrEFVbnRaBpxLx9ZVkvc7fX0/edit?usp=sharing)
 
