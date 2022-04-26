@@ -6,16 +6,19 @@ Challenge: The objective of this project is to create a machine learning model t
 ### Normalize Data
 To start solving this question, we first needed to normalize our input and output data points to reduce floating point error and to clean up major discrepancies between the norms of each input params.
 
-- Part 1: Normalizing Using Mean and STD
-    1. If value is zero, we replace it with a minimum non-zero value (so we can log)
-    2. When calculating mean and standard deviation, we use the log(value) to ensure floating point precision 
-    3. We do global mean and std for [‘ALT’, ‘Z’, ‘P+PB’]
-    4. Others, we calculate mean and std per vertical level.
+- Method 1: Normalizing Using Mean and STD
+    1. If value is zero, we replace it with a minimum non-zero value (so we can log).
+    2. When calculating mean and standard deviation, we use the log(value) to ensure floating point precision .
+    3. All variables except 'z' are converted to log space.
+    4. Global mean is subtracted and normalized by standard deviation for each variable.
+    5. Added cos(Time) as additional feature.
+    6. Used for MLP and TabNet.
    
     
-- Part 2: Normalizing for Each Timestep
-    - We use the mean and std calculated form part 1 to normalize the input and output values in the dataset.
-    - This ensures a normal distribution of the dataset and a more accurate prediction from the model later on. 
+- Method 2: Normalizing for Each Timestep
+    1. Variables are converted to log space similar to method 1.
+    2. Mean and standard deviation are calculated at each height instead of global.
+    3. Dataset used for final TabNet model.
 
     
 ### Determine Strong correlation Inputs
