@@ -15,7 +15,7 @@ To start solving this question, we first needed to normalize our input and outpu
     6. Used for MLP and TabNet.
    
     
-- Method 2: Normalizing for Each Timestep
+- Method 2: Normalizing for Each height
     1. Variables are converted to log space similar to method 1.
     2. Mean and standard deviation are calculated at each height instead of global.
     3. Dataset used for final TabNet model.
